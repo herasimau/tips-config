@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:mysql://mysql-accounts/accounts
     username: root
-    password: 
+    password: secret
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
