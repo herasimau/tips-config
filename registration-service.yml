@@ -22,15 +22,8 @@ spring:
     port: 587
     username: herasimau.leanid@gmail.com
     password: 9999
-    properties:
-      mail:
-        transport:
-          protocol: smtp
-        smtp:
-          auth: true
-        smtp:
-          starttls:
-            enable: true
-      from:
-        email: herasimau.leanid@gmail.com
+    properties.mail.smtp:
+        auth: true
+        starttls.enable: true
+        ssl.trust: smtp.gmail.com
 
