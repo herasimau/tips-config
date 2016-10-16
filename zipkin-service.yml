@@ -2,10 +2,10 @@ server:
   port: ${PORT:9191}
   
 spring:
-	datasource:
-		initialize : false
-	sleuth:
-		enabled: false
+  datasource:
+    initialize : false
+  sleuth:
+    enabled: false
 eureka:
   client:
     serviceUrl:
@@ -15,4 +15,4 @@ eureka:
 
 ribbon:
   eureka:
-	  enabled: true
+    enabled: true
